@@ -1,0 +1,30 @@
+.pin {
+    width: 275px;
+    height: 300px;
+    border-radius: 15px;
+    border: 5px solid #E6C9AC;
+    background-color: aqua;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    background-position: 50%;
+}
+
+/* apply these styles to any ul element inside an element with a class of pin. Selectors */
+.pin ul {
+    background-color: #385B66;
+    border-radius: 25px;
+    text-align: left;
+    top: 150px;
+    position: relative;
+}
+
+.pin h1 {
+    background-color: #385B66;
+    text-align: center;
+    border-radius: 10px;
+}
+
+html {
+    background-color: lightblue;
+}
